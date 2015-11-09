@@ -1,0 +1,12 @@
+#_of_Animals: 6
+Ani_Consumpt: 40
+food_cost: 3
+The animals cost : 720.
+#_of_Animals: 5
+Ani_Consumpt: 15
+food_cost: 2
+The animals cost : 150.
+#_of_Animals: 15
+Ani_Consumpt: 3
+food_cost: 1
+The animals cost : 45.
