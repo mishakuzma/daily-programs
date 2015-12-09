@@ -16,11 +16,16 @@ class Credential:
 		s.write("Password: " + str(self.password))
 		s.close()
 
-""" existPass() will check a folder for an existing document that 
+""" main() will ask the user for a user and a pass. The user
+has three attempts to open the program with the proper set of 
+credentials (a user and a pass). If they fail to do so, the
+program quits. If they succeed, the file is opened."""
+
+def main():
+	""" existPass() will check a folder for an existing document that 
 contains a username and password. If one exists, the checked user
 and pass will become the one that is checked by the program. If not,
 user will be asked to write the user and pass."""
-def main():
 	def existPass():
 		os.chdir("C:\selfPrograms\dailyProg\outFiles")
 		try:
